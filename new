@@ -1,0 +1,157 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>黄天佑</title>
+    <!-- <script src="./vue3.js"></script> -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body
+    style="
+      margin: 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    "
+  >
+    <touxianglan
+      style="
+        width: 100%;
+        height: 160px;
+        background-color: #eee;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      "
+    >
+      <img
+        src="https://ts1.cn.mm.bing.net/th/id/R-C.a896225210163db675dfa39e77901140?rik=j8oUNGOj3REDQQ&amp;riu=http%3a%2f%2fpic1.nipic.com%2f2008-10-27%2f2008102715429376_2.jpg&amp;ehk=JOob0RLmKrGnYD2rkNPxYDlb%2fdJXOFDBDiGcKvPKumY%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0"
+        alt="伍六七帅照"
+        style="width: 88px; height: 88px"
+      /> </touxianglan
+    ><zhuneirou
+      style="
+        display: block;
+        padding: 10px 5px 5px 5px;
+        letter-spacing: 1px;
+        line-height: 1.7;
+      "
+    >
+      <p>你好呀</p>
+      我是黄天佑
+      <p></p>
+      <p>我们一起去看电影吧</p>
+      <h>哈哈，新页面</h>
+    </zhuneirou>
+    <div></div>
+
+    <div></div>
+
+    <script></script>
+    <!-- Code injected by live-server -->
+    <script>
+      // <![CDATA[  <-- For SVG support
+      if ("WebSocket" in window) {
+        (function () {
+          function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < sheets.length; ++i) {
+              var elem = sheets[i];
+              var parent = elem.parentElement || head;
+              parent.removeChild(elem);
+              var rel = elem.rel;
+              if (
+                (elem.href && typeof rel != "string") ||
+                rel.length == 0 ||
+                rel.toLowerCase() == "stylesheet"
+              ) {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+                elem.href =
+                  url +
+                  (url.indexOf("?") >= 0 ? "&" : "?") +
+                  "_cacheOverride=" +
+                  new Date().valueOf();
+              }
+              parent.appendChild(elem);
+            }
+          }
+          var protocol =
+            window.location.protocol === "http:" ? "ws://" : "wss://";
+          var address =
+            protocol + window.location.host + window.location.pathname + "/ws";
+          var socket = new WebSocket(address);
+          socket.onmessage = function (msg) {
+            if (msg.data == "reload") window.location.reload();
+            else if (msg.data == "refreshcss") refreshCSS();
+          };
+          if (
+            sessionStorage &&
+            !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+          ) {
+            console.log("Live reload enabled.");
+            sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+          }
+        })();
+      } else {
+        console.error(
+          "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
+        );
+      }
+      // ]]>
+    </script>
+    <!-- Code injected by live-server -->
+    <script>
+      // <![CDATA[  <-- For SVG support
+      if ("WebSocket" in window) {
+        (function () {
+          function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < sheets.length; ++i) {
+              var elem = sheets[i];
+              var parent = elem.parentElement || head;
+              parent.removeChild(elem);
+              var rel = elem.rel;
+              if (
+                (elem.href && typeof rel != "string") ||
+                rel.length == 0 ||
+                rel.toLowerCase() == "stylesheet"
+              ) {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+                elem.href =
+                  url +
+                  (url.indexOf("?") >= 0 ? "&" : "?") +
+                  "_cacheOverride=" +
+                  new Date().valueOf();
+              }
+              parent.appendChild(elem);
+            }
+          }
+          var protocol =
+            window.location.protocol === "http:" ? "ws://" : "wss://";
+          var address =
+            protocol + window.location.host + window.location.pathname + "/ws";
+          var socket = new WebSocket(address);
+          socket.onmessage = function (msg) {
+            if (msg.data == "reload") window.location.reload();
+            else if (msg.data == "refreshcss") refreshCSS();
+          };
+          if (
+            sessionStorage &&
+            !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+          ) {
+            console.log("Live reload enabled.");
+            sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+          }
+        })();
+      } else {
+        console.error(
+          "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
+        );
+      }
+      // ]]>
+    </script>
+  </body>
+</html>
